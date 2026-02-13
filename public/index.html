@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuthitha | DevOps Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .section {
+            padding: 50px 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #00d4ff;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px 25px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .skill-card:hover {
+            background: #00d4ff;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            transition: 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            background: #00d4ff;
+            color: black;
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.4);
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #00d4ff;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hi, I'm Yuthitha 🚀</h1>
+    <p>DevOps Engineer | Docker | Jenkins | Node.js | Linux</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</header>
+
+<section class="section">
+    <h2>About Me</h2>
+    <p>
+        Passionate DevOps enthusiast building CI/CD pipelines, 
+        containerized applications using Docker, and automating deployments with Jenkins.
+        Skilled in Linux, Git, Node.js and cloud technologies.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-card">Docker</div>
+        <div class="skill-card">Jenkins</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Linux</div>
+        <div class="skill-card">CI/CD</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>CI/CD Pipeline</h3>
+            <p>Built automated Docker deployment using Jenkins pipeline.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Deployment</h3>
+            <p>Deployed Node.js portfolio app using Docker container.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Linux Server Setup</h3>
+            <p>Configured Ubuntu server with Docker & Jenkins integration.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: yuthitha@example.com</p>
+    <p>GitHub: github.com/Yuthitha-N</p>
+</section>
+
+<footer>
+    <p>© 2026 Yuthitha | DevOps Portfolio</p>
+</footer>
+
+</body>
+</html>
